@@ -1,0 +1,133 @@
+{
+    "@id": "https://api.nuget.org/v3/registration3/webgrease/index.json",
+    "@type": [
+        "catalog:CatalogRoot",
+        "PackageRegistration",
+        "catalog:Permalink"
+    ],
+    "commitId": "6a3c832c-8f77-459e-80bb-cc99dbf34580",
+    "commitTimeStamp": "2017-07-20T01:24:16.4372955Z",
+    "count": 1,
+    "items": [
+        {
+            "@id": "https://api.nuget.org/v3/registration3/webgrease/index.json#page/1.0.0/1.6.0",
+            "@type": "catalog:CatalogPage",
+            "commitId": "6a3c832c-8f77-459e-80bb-cc99dbf34580",
+            "commitTimeStamp": "2017-07-20T01:24:16.4372955Z",
+            "count": 6,
+            "items": [
+                {
+                    "@id": "https://api.nuget.org/v3/registration3/webgrease/1.0.0.json",
+                    "@type": "Package",
+                    "commitId": "6a3c832c-8f77-459e-80bb-cc99dbf34580",
+                    "commitTimeStamp": "2017-07-20T01:24:16.4372955Z",
+                    "catalogEntry": {
+                        "@id": "https://api.nuget.org/v3/catalog0/data/2015.02.01.22.00.29/webgrease.1.0.0.json",
+                        "@type": "PackageDetails",
+                        "authors": "renderteam@microsoft.com",
+                        "description": "Web Grease is a suite of tools for optimizing javascript, css files and images.",
+                        "iconUrl": "",
+                        "id": "WebGrease",
+                        "language": "en-US",
+                        "licenseUrl": "http://www.microsoft.com/web/webpi/eula/msn_webgrease_eula.htm",
+                        "listed": true,
+                        "minClientVersion": "",
+                        "packageContent": "https://api.nuget.org/v3-flatcontainer/webgrease/1.0.0/webgrease.1.0.0.nupkg",
+                        "projectUrl": "",
+                        "published": "2012-05-31T16:29:46.723-07:00",
+                        "requireLicenseAcceptance": true,
+                        "summary": "",
+                        "tags": [
+                            ""
+                        ],
+                        "title": "",
+                        "version": "1.0.0"
+                    },
+                    "packageContent": "https://api.nuget.org/v3-flatcontainer/webgrease/1.0.0/webgrease.1.0.0.nupkg",
+                    "registration": "https://api.nuget.org/v3/registration3/webgrease/index.json"
+                },
+                {
+                    "@id": "https://api.nuget.org/v3/registration3/webgrease/1.1.0.json",
+                    "@type": "Package",
+                    "commitId": "6a3c832c-8f77-459e-80bb-cc99dbf34580",
+                    "commitTimeStamp": "2017-07-20T01:24:16.4372955Z",
+                    "catalogEntry": {
+                        "@id": "https://api.nuget.org/v3/catalog0/data/2015.02.02.02.02.14/webgrease.1.1.0.json",
+                        "@type": "PackageDetails",
+                        "authors": "Microsoft",
+                        "description": "Web Grease is a suite of tools for optimizing javascript, css files and images.",
+                        "iconUrl": "",
+                        "id": "WebGrease",
+                        "language": "en-US",
+                        "licenseUrl": "http://www.microsoft.com/web/webpi/eula/msn_webgrease_eula.htm",
+                        "listed": true,
+                        "minClientVersion": "",
+                        "packageContent": "https://api.nuget.org/v3-flatcontainer/webgrease/1.1.0/webgrease.1.1.0.nupkg",
+                        "projectUrl": "",
+                        "published": "2012-08-10T22:44:45.79-07:00",
+                        "requireLicenseAcceptance": true,
+                        "summary": "",
+                        "tags": [
+                            ""
+                        ],
+                        "title": "",
+                        "version": "1.1.0"
+                    },
+                    "packageContent": "https://api.nuget.org/v3-flatcontainer/webgrease/1.1.0/webgrease.1.1.0.nupkg",
+                    "registration": "https://api.nuget.org/v3/registration3/webgrease/index.json"
+                }
+            ],
+            "parent": "https://api.nuget.org/v3/registration3/webgrease/index.json",
+            "lower": "1.0.0",
+            "upper": "1.6.0"
+        }
+    ],
+    "@context": {
+        "@vocab": "http://schema.nuget.org/schema#",
+        "catalog": "http://schema.nuget.org/catalog#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "items": {
+            "@id": "catalog:item",
+            "@container": "@set"
+        },
+        "commitTimeStamp": {
+            "@id": "catalog:commitTimeStamp",
+            "@type": "xsd:dateTime"
+        },
+        "commitId": {
+            "@id": "catalog:commitId"
+        },
+        "count": {
+            "@id": "catalog:count"
+        },
+        "parent": {
+            "@id": "catalog:parent",
+            "@type": "@id"
+        },
+        "tags": {
+            "@container": "@set",
+            "@id": "tag"
+        },
+        "packageTargetFrameworks": {
+            "@container": "@set",
+            "@id": "packageTargetFramework"
+        },
+        "dependencyGroups": {
+            "@container": "@set",
+            "@id": "dependencyGroup"
+        },
+        "dependencies": {
+            "@container": "@set",
+            "@id": "dependency"
+        },
+        "packageContent": {
+            "@type": "@id"
+        },
+        "published": {
+            "@type": "xsd:dateTime"
+        },
+        "registration": {
+            "@type": "@id"
+        }
+    }
+}
